@@ -1,2 +1,3 @@
-# theme
+# Theme
 Theme for plots
+
