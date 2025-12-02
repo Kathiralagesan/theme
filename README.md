@@ -26,7 +26,7 @@ library(ggplot2)
 source("https://raw.githubusercontent.com/Kathiralagesan/theme/main/ggplot2/theme_kal.R")
 ```
 
-**3. Run theme_set() to override the current theme with the Trafford Data Lab theme**
+**3. Run theme_set() to override the current theme with the KAL modern theme**
 
 ``` r
 theme_set(theme_kal_modern())
@@ -63,5 +63,6 @@ ggplot(mtcars, aes(x = mpg, y = drat)) +
 ## Authors
 
 Dr. Kathirvel Alagesan
-
-Max Planck Unit for the Science of Pathogens | D-10117 Berlin | Germany
+- Max Planck Unit for the Science of Pathogens | D-10117 Berlin | Germany
+- [alagesan](https://orcid.org/0000-0002-7596-5558)
+- www.mpusp.mpg.de
