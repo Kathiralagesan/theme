@@ -9,6 +9,9 @@ Theme for plots inspired by Trafford Data Lab
 
 * [Roboto](https://fonts.google.com/specimen/Roboto?selection.family=Roboto)
 
+you can check the fonts available using:
+typefaces <- systemfonts::system_fonts()[, c("path", "index", "family", "style")]
+
 ---
 
 **1. Load the ggplot2 package**
@@ -20,7 +23,7 @@ library(ggplot2)
 **2. Provide a source path to the URL containing the custom theme**
 
 ``` r
-source("https://github.com/Kathiralagesan/theme/blob/main/ggplot2/theme_kal.R")
+source("https://raw.githubusercontent.com/Kathiralagesan/theme/main/ggplot2/theme_kal.R")
 ```
 
 **3. Run theme_set() to override the current theme with the Trafford Data Lab theme**
@@ -36,7 +39,7 @@ theme_set(theme_kal_modern())
 # load the necessary packages
 library(ggplot2) ; library(tidyverse) 
 
-source("https://github.com/Kathiralagesan/theme/blob/main/ggplot2/theme_kal.R")
+source("https://raw.githubusercontent.com/Kathiralagesan/theme/main/ggplot2/theme_kal.R")
 
 theme_set(theme_kal_modern())
 
