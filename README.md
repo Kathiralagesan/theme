@@ -1,16 +1,20 @@
-# Theme
+# Theme KAL
 
 Theme for plots inspired by Trafford Data Lab
 
+## Authors
+
+Dr. Kathirvel Alagesan
+- Max Planck Unit for the Science of Pathogens | D-10117 Berlin | Germany
+- ORCID [alagesan](https://orcid.org/0000-0002-7596-5558)
+- www.mpusp.mpg.de
+  
 ---
 ## Instructions for loading the custom [ggplot2](http://ggplot2.tidyverse.org/) Kal modern theme
 
 **NOTE:** In order for the script to run successfully you will need the following [Google Fonts](https://fonts.google.com/) installed on your system:
 
 * [Roboto](https://fonts.google.com/specimen/Roboto?selection.family=Roboto)
-
-you can check the fonts available using:
-typefaces <- systemfonts::system_fonts()[, c("path", "index", "family", "style")]
 
 ---
 
@@ -31,6 +35,11 @@ source("https://raw.githubusercontent.com/Kathiralagesan/theme/main/ggplot2/them
 ``` r
 theme_set(theme_kal_modern())
 ```
+**4. Check the fonts avialable**
+
+``` r
+typefaces <- systemfonts::system_fonts()[, c("path", "index", "family", "style")]
+```
 
 ---
 
@@ -46,7 +55,7 @@ theme_set(theme_kal_modern())
 # load some data
 data(mtcars)
 
-# creare a plot
+# create a plot
 
 ggplot(mtcars, aes(x = mpg, y = drat)) +
   geom_point(color = '#ef8a47') +
@@ -60,9 +69,3 @@ ggplot(mtcars, aes(x = mpg, y = drat)) +
 ```
 <img width="1468" height="1186" alt="image" src="https://github.com/user-attachments/assets/a3f11698-d0be-4f1e-b98b-ed78c5c16d50" />
 
-## Authors
-
-Dr. Kathirvel Alagesan
-- Max Planck Unit for the Science of Pathogens | D-10117 Berlin | Germany
-- ORCID [alagesan](https://orcid.org/0000-0002-7596-5558)
-- www.mpusp.mpg.de
