@@ -12,10 +12,6 @@ Dr. Kathirvel Alagesan
 ---
 ## Instructions for loading the custom [ggplot2](http://ggplot2.tidyverse.org/) Kal modern theme
 
-**NOTE:** In order for the script to run successfully you will need the following [Google Fonts](https://fonts.google.com/) installed on your system:
-
-* [Roboto](https://fonts.google.com/specimen/Roboto?selection.family=Roboto)
-
 ---
 
 **1. Load the ggplot2 package**
