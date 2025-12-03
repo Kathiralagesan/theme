@@ -1,6 +1,6 @@
 
 theme_kal_modern <- function(
-    family = "Roboto",
+    family = "Arial",
     align_titles = c("center", "left")   # choose "left" for print journals
 ) {
   
